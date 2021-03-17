@@ -1,12 +1,8 @@
-# WebGL
+# A tiny intro to React-Three-Fiber aka R3F
 
-## A talk for the engineering all hands meeting at SinnerSchrader
+## A talk for the campus lightning at SinnerSchrader
 
-I don't know if I can hold the talk because I don't feel well but let's try.
-
-[Angela](https://twitter.com/agalliat) cheered me up and encouraged me. Please send her a virtual hug.
-
-https://terabaud.github.io/slides-webgl/
+https://terabaud.github.io/r3f-talk/
 
 ## Running it locally
 
