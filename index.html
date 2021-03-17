@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="Lea Rosema"/><meta name="keywords" content="WebGL, shaders, generative art"/><link rel="stylesheet" href="css/index.css"/><title>All Things WebGL</title></head><body><main><section class="slide"><h1>React-Three-Fiber aka R3F</h1>
+</section><section class="slide">
+<h1>Hi! I'm Lea Rosema</h1>
+<ul>
+<li>she/her, Digital Artist @ S2</li>
+<li><a target="_blank" rel="noopener noreferer" href="https://lea.codes/">https://lea.codes/</a></li>
+<li><a target="_blank" rel="noopener noreferer" href="https://codepen.io/terabaud/">https://codepen.io/terabaud/</a></li>
+<li><a target="_blank" rel="noopener noreferer" href="https://twitter.com/terabaud">@terabaud</a></li>
+</ul>
+</section><section class="slide">
+<h1>Slides to my talk</h1>
+<ul>
+<li><a target="_blank" rel="noopener noreferer" href="https://terabaud.github.io/r3f-talk/">https://terabaud.github.io/r3f-talk</a></li>
+</ul>
+</section><section class="slide">
+<h1>What is React Three Fiber?</h1>
+<ul>
+<li>React and Three.js, together</li>
+<li>Three.js is a 3D engine for the web</li>
+<li>React is a component-driven JS library for building UI</li>
+</ul>
+</section><section class="slide">
+<h1>Anatomy of a three.js application</h1>
+<ul>
+<li>create scene</li>
+<li>setup lights</li>
+<li>add meshes to the scene</li>
+<li>initialize renderer</li>
+<li>add objects to the scene</li>
+<li>initialize resize event</li>
+<li>initialize render loop</li>
+</ul>
+</section><section class="slide">
+<h1>Hard things</h1>
+<ul>
+<li>hard to interact with objects inside the canvas</li>
+<li>no onClick, onHover handlers on objects</li>
+<li>state management is up to you</li>
+<li>manual handling of render loop</li>
+<li>manual handling of window resize</li>
+</ul>
+</section><section class="slide">
+<h1>This is where React comes in</h1>
+<ul>
+<li>Declarative language</li>
+<li>built-in state management (useState hook)</li>
+<li>built-in onClick handlers</li>
+<li>rendering is handled by React</li>
+<li>but React itself can only handle DOM elements</li>
+</ul>
+</section><section class="slide">
+<h1>R3F to the rescue</h1>
+<ul>
+<li>React has a &quot;Reconciler&quot;</li>
+<li>allows React to handle things other than the DOM</li>
+<li>R3F creates the bridge between JSX and Three.js</li>
+<li>Think of Spheres, Lights, Cameras as React Components</li>
+<li>There can even be a storybook containing these components</li>
+</ul>
+</section><section class="slide">
+<h1>DEMO</h1>
+<ul>
+<li><a target="_blank" rel="noopener noreferer" href="https://codesandbox.io/s/r3f-helloworld-wyi53">https://codesandbox.io/s/r3f-helloworld-wyi53</a></li>
+<li>This demo uses TypeScript + React</li>
+<li>react-three-fiber</li>
+<li>@react-three/drei which is a library that contains Three.js components for R3F</li>
+</ul>
+</section><section class="slide">
+<h1>Thank you 👩‍💻</h1>
+<h2>Further Resources</h2>
+<ul>
+<li><a target="_blank" rel="noopener noreferer" href="https://threejs.org">https://threejs.org</a></li>
+<li><a target="_blank" rel="noopener noreferer" href="https://github.com/pmndrs/react-three-fiber">https://github.com/pmndrs/react-three-fiber</a></li>
+<li><a target="_blank" rel="noopener noreferer" href="https://github.com/pmndrs/drei">https://github.com/pmndrs/drei</a></li>
+</ul>
+</section></main><script src="prism/prism.js"></script></body></html>
